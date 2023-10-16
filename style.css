@@ -1,0 +1,62 @@
+/*
+
+seletor {
+    color: black;
+}
+
+seletores:
+- qualquer elemento do HTML
+- classes, grupo de elmentos com um cracterística em comum (.nome-da-classe)
+- id, identificação de um elemento específico do site. Deve ser único! (#nome-do-id)
+
+*/
+
+h1 {
+    color: red;
+    background-color: aquamarine;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+button {
+    color: rgb(236, 13, 50);
+    background-color: aqua;
+}
+
+.lista {
+    color: blue;
+}
+
+#primeiro {
+    color: red;
+}
+
+ol {
+    color: pink; /* o ld que está no ol que atribuí id prioriza a configuração da id
+    id > class > elemento html */
+}
+
+.letras {
+    color: orchid;
+    text-decoration: underline;
+}
+
+/*
+- seletor1, seletor2 {}
+- elemento.classe {}
+- seletor1 seletor2 {} (seletores2 filhos de seletor 1 terão as configurações)
+- seletor1 .classe {} (quem tiver classe dentro dos seletor1)
+- .classe-1.classe-2 {} (class="classe-1 classe-2") elementos com as duas classes necessariamente (Sem espaço!!! senão acha que é herança)
+- div * {}     div >* {} (diretamente abaixo)
+
+
+seletores especiais:
+e:hover -> mouse por cima do elemento
+e:focus -> mouse clicando no elemento fica em foco, se clica fora ele sai, só dura enquanto clicado
+e::after -> colocar um elemento antes de algo
+e::before -> colocar um elemento depois de algo
+
+*/
